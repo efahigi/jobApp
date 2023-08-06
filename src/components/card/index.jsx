@@ -10,7 +10,7 @@ const JobListCard = ({ job }) => {
       <h2 className="job-title">{name}</h2>
       <p className="company-name">{company.name}</p>
       <p className="job-location">
-        Location: Location:
+        Location: 
         {locations.map((location) => (
           <>
             <span key={location.name} className="pill">
