@@ -13,7 +13,7 @@
 
 .company-name {
   font-size: 16px;
-  color: #888;
+  color: #007bff;
   margin-bottom: 8px;
   text-transform: uppercase;
 }
@@ -29,7 +29,7 @@
 .pill{
   display: inline-block;
   padding: 4px 8px;
-  background-color: #007bff46;
+  /* background-color: #e9ecf046; */
   color: var(--blue);
   font-size: 12px;
   border-radius: 4px;
