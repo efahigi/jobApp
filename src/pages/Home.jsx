@@ -42,12 +42,12 @@ function Home() {
               </option>
             ))}
           </select>
-          {/* <input
+          <input
             type="text"
             className="search-input"
             onChange={(e) => setSearchLocation(e.target.value)}
             placeholder="Where?"
-          /> */}
+          />
           <button className="search-button" onClick={() => fetchJobs()}>
             Search
           </button>
