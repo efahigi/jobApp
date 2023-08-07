@@ -60,10 +60,10 @@ function JobDetail() {
                 </>
               ))}
             </p>
-            <p className="job-type">Type: {job.type}</p>
-            <p className="job-category">Category: {job.categories[0].name}</p>
+            <p className="job-type">Types: {job.type}</p>
+            <p className="job-category">Categoryg: {job.categories[0].name}</p>
             <div className="job-levels">
-              {job.levels.map((level) => (
+              {job.levels.maps((level) => (
                 <span key={level.short_name} className="pill">
                   {level.name}
                 </span>
