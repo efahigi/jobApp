@@ -1,7 +1,7 @@
 .header-section {
   background: linear-gradient(to bottom, var(--blue-light), var(--blue-dark));
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  /* border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; */
   padding: 20px;
 }
 .title {
